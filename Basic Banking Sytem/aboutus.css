@@ -53,22 +53,71 @@ body{
     font-size: 13px;
 }
 
- 
+.about_wrapper .container .row .navbar-brand-2 img{
+    margin-left: -150px;
+    display: flex;
+    margin-top: 50px;
+} 
+
+.about_wrapper .container .row .class1 {
+    margin-left: 300px;
+    margin-top: -300px;
+}
+
+.about_wrapper .container .row .class1 h6{
+    font-size: 100px;
+}
+
+.about_wrapper .container .row1{
+    margin-left: -700px;
+    margin-top: 300px;
+}
+
+.about_wrapper .container .row1 h6{
+    font-size: 100px;
+}
+
+.about_wrapper .container .row .navbar-brand-3 img{
+    margin-left: 1250px;
+    margin-top: -400px;
+}
+
+.about_wrapper .container .row .navbar-brand-4 img{
+    margin-left: -200px;
+}
+
+.about_wrapper .container .row2{
+    margin-left: 500px;
+    margin-top: -300px;
+}
+
+.about_wrapper .container .row2 h6{
+    font-size: 100px;
+}
 
 @media screen and (max-width:1200px){
-    .inner-container{
+    .container{
         padding: 80px;
     }
 }
 
 @media screen and (max-width:1000px){
-    .about-section{
+    .about_wrapper{
         background-size: 100%;
         padding: 100px 40px;
     }
-    .inner-container{
+    .container{
         width: 100%;
-    }
+    }    
 }
 
-    
+@media screen and (max-width: 600px) {
+    .about_wrapper{
+        background-size: 100%;
+        padding: 100px 40px;
+        margin-bottom: 200px;
+    }
+    .container{
+        width: 100%;
+    } 
+}    
